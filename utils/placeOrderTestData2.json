@@ -1,0 +1,18 @@
+[
+    {
+    "productName": "ZARA COAT 3",
+    "countryName": "Algeria",
+    "emailUser": "test@example.co",
+    "password": "Test1234?",
+    "confMsg": " Thankyou for the order. "
+    },
+
+    {
+    "productName": "iphone 13 pro",
+    "countryName": "Algeria",
+    "emailUser": "jimlarry@test.io",
+    "password": "Test7890?",
+    "confMsg": " Thankyou for the order. "
+    }
+
+]
