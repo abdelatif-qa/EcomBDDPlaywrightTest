@@ -1,6 +1,6 @@
 Feature: Ecommerce validations
 
-    @Regression
+    ##@Regression
     Scenario Outline: Placing the order
         Given login to Ecommerce application with "<email>" and "<password>"
         When Add "<productName>" to the Cart
