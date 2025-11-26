@@ -17,7 +17,9 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests
+    - name: Install Cucumber
+      run: npm install @cucumber/cucumber
+    - name: Run Cucumber tests
       run: npm run cucumbeRegression
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
